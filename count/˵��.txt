@@ -1,0 +1,2 @@
+count.php 用来对网站访问量进行计数
+count.inf 网站访问量信息

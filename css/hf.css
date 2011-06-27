@@ -1,0 +1,241 @@
+﻿/*basic css,which is same for all web pages.author:Wendell.last modify:2008-10-23*/
+*{
+	margin:0;
+	padding:0;
+}
+/**/
+html,body{
+	min-width:780px;
+	height:100%;
+	width:100%;
+}
+/**/
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lucida Grande','Lucida Sans Unicode','宋体','新宋体',arial,verdana,sans-serif;
+	font-size: 12px;
+	line-height:150%;
+	background: none repeat scroll 0 0 #A3424D;
+	background: none repeat scroll 0 0 #FFFFCC;
+}
+/**整个页面*/
+#wraper{
+margin:0 auto;
+width:1100px;
+text-align:left;
+}
+
+
+/**/
+IMG	{border-width: 0px;}
+
+p {line-height:150%;}
+
+a {
+	text-decoration:none;
+	color: #DCB20C;
+}
+/*
+a:link {color:#111;}
+a:visited{color:#666;}
+a:hover {color:#c61c18;text-decoration: underline;}
+*/
+.floatleft{
+	float:left;
+}
+
+/*header*/
+#header {
+	height:72px;
+	background:url("../image/bgd_10.jpg") no-repeat scroll right top #FFFFE7;
+	position:relative;
+}
+#header #h_content{
+	position:relative;
+	text-align:center;
+	margin:0 auto;
+	width: 1100px;
+}
+#header #h_content #h_left{
+	float: left;
+	width: 20%;
+}
+#header #h_content #h_right{
+	float:right;
+	width: 70%;
+}
+
+/*navagation*/
+#nav {
+	text-align:center;
+	margin:0 auto;
+	background:url("../image/navbar.gif") repeat scroll 0 0 #FFFFE7; 
+	position:relative;
+	font-size: 14px;
+	height:35px;
+}
+#nav ul{/*list*/
+	list-style:none;
+}
+#nav li{/*listitem*/
+	margin:0 2px 0 0;
+	display:inline;
+	padding-top: 2px;
+}
+#nav a{/**/
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	float:left;
+	margin: 0 1px 0 0;
+	text-decoration:none;
+	cursor:pointer;
+}
+#nav a span{
+	float:left;
+	display:block;
+	padding:0 8px 1px 8px;
+	line-height: 26px;
+}
+#nav li a:hover {
+	background-color: #777;
+}
+#nav li a:hover span{
+	color: blue;
+}
+
+.loginfo{
+	float:right;
+}
+.loginfo a,a:hover{
+	text-decoration:none;
+}
+.loginfo span{
+	font-size:10px;
+	color:#A5C59E;
+}
+
+/*footer*/
+#footer{
+	background: url("../image/ftr_rpt.gif") repeat-x scroll 0 0 transparent;
+	font-size: 0.9em;
+	position:relative;
+	height: 33px;
+	margin-bottom:20px;
+}
+#copyright{
+	background:url("../image/ftr_left.gif") no-repeat scroll left bottom transparent;
+	color:#999999;
+	text-align:left;
+	height:33px;
+	line-height:33px;
+	padding-left:20px;
+	float:left;
+}
+#count {
+	text-align:center;
+	line-height:33px;
+	display:inline;
+	float:left;
+	margin-left:200px;
+}
+#legals{
+	background:url("../image/ftr_rt.gif") no-repeat scroll right top transparent;
+	padding-right:20px;
+	float:right;
+}
+#legals ul{
+	list-style:none outside none;
+}
+#legals li{
+	color: #66B473;
+	float: left;
+}
+#legals li a{
+color:#66B473;
+font-weight:bold;
+line-height:33px;
+margin:0 3px;
+text-decoration:none;
+}
+
+/***页面内容CSS**/
+/*middle*/
+#content {
+	/*background: none repeat scroll 0 0 #FFFFE7;*/
+	background: none repeat scroll 0 0 #FFFFFF;
+	padding: 5px;
+	position:relative;
+	font-size: 12px;
+	min-height: 600px;
+	height:auto !important; 
+    height:600px; 
+    overflow:visible;
+	/*border: 1px solid #99D484;*/
+}
+/*
+#content a {
+	text-decoration:none;
+	color: #DCB20C;
+}
+#content a:link {color:#111;}
+#content a:visited{color:#666;}
+#content a:hover {color:#c61c18;text-decoration: underline;}*/
+/*middle-leftside*/
+#content #left {
+	padding:5px;
+	margin-top: 20px;
+	text-align:left;
+	width: 160px;	
+	position:absolute;
+	top:0;
+	left:0;
+}
+#content #left a{
+	line-height: 25px;
+	color: green;
+	font-weight:normal
+	text-decoration: none;
+}
+.navbox{
+	margin-bottom: 10px;	
+}
+.navbox .title{
+	/*background-color:#5A89C0;*/
+	padding-bottom: 5px;
+	border-bottom:3px solid #BDC9DC;
+	font-weight:bold;
+}
+.navbox ul{
+	list-style: none outside none;	
+}
+.navbox ul li{
+	border-bottom: 1px solid #DEDEDE;
+	font-size: 12px;
+	padding: 1px 0 0 18px;
+}
+/*search box**/
+.searchbox{
+	margin: 35px 0 30px 0;
+}
+.searchbox .title{
+	font-weight: bold;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+	border-bottom:3px solid #BDC9DC;
+}
+#search {
+	background: url("../image/search.gif") no-repeat;
+	border: 1px solid #CCCCCC;
+	color: #666666;
+	padding: 2px 2px 2px 20px;
+}
+
+/*middle-middle*/
+#content #middle {
+	margin-left:180px;
+	padding-top:2px;
+	width: 800px;
+	
+}

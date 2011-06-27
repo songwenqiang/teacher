@@ -1,0 +1,142 @@
+.listnav{
+	padding: 5px;
+	padding-left: 50px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #DEDEDE;
+}
+.listnav a {
+	padding: 2px;
+	margin-left: 10px;
+	border: 1px solid #41A256;
+	color: #3f3f3f;
+	width: 50px;
+}
+.listnav a:hover{
+	text-decoration: none;
+}
+.listnav .daochu{
+	border:none;
+	float:right;
+	height: 20px;
+	margin-right:60px;
+	width: 80px;
+	background: url("../../image/del_sprite_arrowButtons.gif") no-repeat scroll left 30px transparent;
+}
+
+.paperlist{
+	min-height: 500px;
+	height:auto !important; 
+    height:500px; 
+    overflow:visible;
+}
+.prev{
+	text-decoration: none;
+	cursor: pointer;
+}
+.icon{
+	cursor: pointer;
+	margin-left: 15px;
+	text-align:center;
+	height: 20px;
+	background: url("../../image/global.png") no-repeat scroll left 30px transparent;
+	line-height: 24px;
+	vertical-align: middle;
+	background-position: 0 -5px;
+	width: 20px;
+}
+
+table{
+	width: 800px;
+	margin: 0;
+	padding: 0;
+}
+th{
+	font-weight: bold;
+	color: #4f6b72;
+	text-align: center;
+	padding: 5px;
+	margin: 0 auto;
+}
+td{
+	text-align: center;
+	line-height: 150%;
+}
+
+/******preview paper********/
+.paperpreview{
+	display:none;
+	margin-left: 30px;
+	width:700px;
+}
+.paperpreview .p_title{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px 0 10px 0;
+}
+.paperpreview .p_content{
+	line-height: 180%;
+	text-align:left;
+}
+.paperpreview .p_content dt{
+	color: #666666;
+	text-align: left;
+	white-space: nowrap;
+	float:left;
+	
+}
+.paperpreview .p_content dd{
+	margin-left: 80px;
+	clear:right;
+}
+
+/*分页导航*/
+.pagenav{
+display:block;
+border-bottom: 1px solid #DDDDDD;
+margin-top:20px;
+padding: 0;
+height:21px;
+}
+.number-photo{
+color:#888888;
+float:left;
+}
+.float-right{
+float:right;
+}
+.pagerpro{
+float:right;
+list-style:none outside none;
+margin:0;
+padding:0;
+}
+.pagerpro li{
+display:inline;
+float:left;
+}
+.pagerpro li a{
+cursor:pointer;
+text-decoration: none;
+font-size:12px;
+border-top: 0 none;
+margin-top: 2px;
+padding: 3px 3px 2px;
+}
+.pagerpro li a:link, .pagerpro li a:visited{
+color: #005EAC;
+text-decoration: none;
+}
+.pagerpro li a:hover{
+background: none repeat scroll 0 0 #005EAC;
+color:#FFFFFF;
+}
+
+.pagerpro li.current a {
+background:none repeat scroll 0 0 transparent;
+border-top: 2px solid #005EAC;
+color:#005EAC;
+font-weight:bold;
+padding-right:2px;
+}

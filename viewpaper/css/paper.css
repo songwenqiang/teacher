@@ -1,0 +1,119 @@
+.f{
+	float:left;
+}
+ul{
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+}
+.tabmenu{
+	height:30px;
+	display:block;
+	border-bottom:1px solid #41A256;
+}
+.tabmenu li{
+	cursor:pointer;
+	float:left;
+	border-top: 1px solid #41A256;
+	border-left: 1px solid #41A256;
+	border-right: 1px solid #41A256;
+	padding: 2px;
+	font-weight:bold;
+	height:26px;
+}
+.tabmenu .on{
+	background: url("../img/tab-bo.gif") repeat scroll 0 0 transparent;
+	
+}
+.tabmenu .off{
+
+}
+.tab-left{
+	background: url("../img/tab-l.gif") no-repeat scroll 0 0 transparent;
+	width:5px;
+}
+.tab-right{
+	background: url("../img/tab-r.gif") no-repeat scroll 0 0 transparent;
+	width: 5px;
+}
+.tabcontent{
+	border: 1px solid #41A256;
+	border-top: none;
+	min-height: 500px;
+	height:auto !important; 
+    height:500px; 
+    overflow:visible;
+}
+
+/**输入信息*/
+.apply_form{
+	color: #5B5F6B;
+}
+.em{
+	color: #FF0000;
+}
+.inb{
+	margin: 10px auto;
+}
+.inb label{
+	float:left;
+	margin: 4px 5px;
+	text-align:right;
+	width: 140px;
+}
+.f_label{
+	float: left;
+	text-align: right;
+	width:180px;
+	margin: 2px 5px;
+}
+select {
+	height: 20px;
+}
+.tip_txt{
+	color: #9A9A9A;
+}
+.errtip{
+	color: #DD2026;
+	margin-left: 10px;
+}
+/**导入方式*/
+.fcon{
+	position: relative;
+	display:block;
+}
+.b-left{
+	margin-left:20px;
+	width:50%;
+	float: left;
+}
+.b-example{
+	margin-top: 40px;
+	float: right;
+	color: #9A9A9A;
+	width: 45%;
+}
+.b-title{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 150%;
+}
+.b-content{
+}
+
+/**参考文献方式**/
+.formcont{
+	padding:0 20px;
+}
+
+.ctrl{
+	margin: 20px 0 20px 150px;	
+}
+.bt{
+	color: #3F3F3F;
+	font-weight: normal;
+}
+.bt_cancel{
+	width: 51px;
+	color: #666666;
+}

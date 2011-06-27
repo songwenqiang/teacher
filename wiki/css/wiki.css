@@ -1,0 +1,32 @@
+﻿/**wiki显示**/
+.wiki{
+	margin-left: 20px;
+	width:700px;
+	padding: 20px 0 0 30px;
+	min-height: 400px;
+	height:auto !important; 
+    height:400px; 
+    overflow:visible;
+}
+.wikieditor{
+	border-top: 1px solid #108AC6;
+	padding: 5px 10px;
+	width: 700px;
+	height: 66px;
+}
+.editor{
+	float:left;
+	overflow: hidden;
+	width: 50px;
+}
+.editor .editor-pic{
+	border: 1px solid #CEE1EE;
+	padding:2px;
+	text-align:center;
+	width: 40px;
+	height: 50px;
+}
+.editor .editor-name{
+	text-align:center;
+	width: 40px;
+}

@@ -1,0 +1,29 @@
+here
+20
+select * from user where id=20
+here
+20
+select * from user where id=20
+here
+20
+select * from user where id=20
+wrong
+here
+20
+select * from user where id=20
+here
+20
+select * from user where id=20
+here
+20
+select * from user where id=20
+wrong
+here
+20
+select * from user where id=20
+Access denied for user 'ODBC'@'localhost' (using password: NO)
+here
+20
+select * from user where id=20
+1
+20王晓龙哈尔滨工业大学

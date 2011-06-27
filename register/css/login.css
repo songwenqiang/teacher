@@ -1,0 +1,73 @@
+#content {
+	background: none repeat scroll 0 0 #FFFFE7;
+	padding: 10px;
+	position:relative;
+	font-size: 12px;
+	min-height: 540px;
+	height:auto !important; 
+    height:540px; 
+    overflow:visible;
+	
+}
+#content #middle{
+	width:1000px;
+}
+
+.login{
+	margin: 100px 0 0 300px;
+}
+.panel{
+	padding:25px 25px 40px;
+	width:400px;
+	border: 1px solid #DCDCDC;
+}
+.fi{
+	height: 30px;
+	margin: 14px 0;
+}
+.lb{
+	float: left;
+	line-height: 30px;
+	margin-right: 10px;
+	width:50px;
+}
+.ipt-t {
+border:1px solid #838383;
+font-size:14px;
+font-weight:bold;
+height:20px;
+line-height:18px;
+margin-right:5px;
+padding:4px;
+width:172px;
+}
+.fi-nolb{
+	height: 24px;
+	padding-left: 90px;
+}
+.btn{
+background-color: #FFFFE7;
+border: 1px solid #777;
+color:#2B2B2B;
+cursor:pointer;
+float:left;
+font-size:14px;
+font-weight:bold;
+height:29px;
+line-height:29px;
+text-align:center;
+}
+.btn-login{
+	width: 60px;
+	margin-right: 10px;
+}
+.btn-reg{
+	width: 60px;
+}
+.tips{
+	color: #333333;
+}
+.errinfo{
+	color: #DD2026;
+	text-align:center;
+}

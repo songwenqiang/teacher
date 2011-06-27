@@ -1,0 +1,60 @@
+#content {
+	background: none repeat scroll 0 0 #FFFFE7;
+	padding: 5px;
+	position:relative;
+	font-size: 12px;
+	min-height: 540px;
+	height:auto !important; 
+    height:540px; 
+    overflow:visible;
+}
+
+.search{
+	text-align: left;
+	padding-bottom: 10px;
+	border-bottom: 2px solid grey;
+}
+
+.searchcontent{
+	font-size: 14px;
+}
+.s_input{
+	height: 14px;
+	width: 150px;
+}
+
+
+#content #result{
+	text-align: left;
+}
+#content #result ul{
+	list-style:none;
+}
+
+
+.listitem{
+	margin: 10px 0 5px 2px;
+	width:800px;
+	font-size: 12px;
+}
+/*web page title*/
+.listitem_title{
+
+}
+.listitem_title a{
+	color:#0000cc;
+}
+.listitem_title span{
+	color: blue;
+	margin:0 0 0 10px;
+}
+/*abstract info*/
+.listitem_content{
+	padding-top:2px;
+}
+/*site url ,size,snapshot,similar web pages*/
+.listitem_site{
+	padding-top:2px;
+	color:green;
+	font-size:12px;
+}

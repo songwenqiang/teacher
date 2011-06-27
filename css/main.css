@@ -1,0 +1,81 @@
+﻿
+.login{
+	background:none repeat scroll 0 0 #EFEFEF;
+	min-height: 540px;
+	height:auto !important; 
+    height:540px; 
+    overflow:visible;
+}
+.panel{
+	padding:25px 0px 40px 10px;
+	border: 1px solid #DCDCDC;
+}
+.fi{
+	margin: 2px;
+}
+.lb{
+	float: left;
+	width:40px;
+	font-family:'lucida grande',tahoma,helvetica,arial,'bitstream vera sans',sans-serif;
+font-size:12px;
+}
+.ipt-t {
+border:1px solid #838383;
+font-size:12px;
+height:16px;
+padding:3px;
+width:135px;
+background:none repeat scroll 0 0 #FFFFFF;
+color:#333333;
+}
+.fi-nolb{
+	height: 24px;
+	padding-left: 30px;
+	margin-top: 30px;
+}
+.btn{
+background-color: #FFFFE7;
+border: 1px solid #777;
+color:#2B2B2B;
+cursor:pointer;
+float:left;
+font-size:14px;
+font-weight:bold;
+height:20px;
+text-align:center;
+}
+.btn-login{
+	width: 60px;
+	margin-right: 10px;
+}
+.btn-reg{
+	width: 60px;
+}
+.tips{
+	color: #333333;
+	margin-left: 38px;
+	font-size:11px;
+}
+.errinfo{
+	color: #DD2026;
+	text-align:center;
+}
+
+
+
+.f13 {
+font-size:13px;
+}
+
+.c6, a.c6 {
+color:#666666;
+font-family:Arial;
+}
+
+.tar {
+text-align:right;
+}
+
+.l {
+float:left;
+}

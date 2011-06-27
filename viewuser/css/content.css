@@ -1,0 +1,244 @@
+﻿.middlebox{
+	text-align:left;
+	width:100%;
+	padding:10px 0 5px 0;
+}
+.middlebox .title{
+	padding-bottom:6px;
+	font-weight:bold;
+	font-size: 16px;
+	border-bottom: 1px dashed #CCCCCC;
+}
+.middlebox .content{
+	margin: 5px 0 0 30px;
+	text-align:left;
+	line-height: 200%;
+}
+.paper_desc{
+		
+}
+.paper_desc span{
+	display:block;
+}
+/**detail paper info*/
+.detailpaperinfo{
+	
+}
+.detailpaper_on{
+	margin-top: 10px;
+	border-bottom: 2px solid #777;
+	text-align: left;
+	cursor: pointer;
+	height:20px;
+	font-size:14px;
+	background: url("../image/seed_list_close.gif") no-repeat scroll 0 0px;
+}
+.detailpaper_off{
+	margin-top: 10px;
+	font-size: 14px;
+	height: 20px;
+	background: url("../image/seed_list_close.gif") no-repeat scroll 0 -20px;
+	text-align: left;
+	cursor: pointer;
+}
+.confirmyes{
+		
+}
+.confirmnot{
+	display:none;
+}
+.notconfirm{
+	display:none;
+}
+
+/******preview paper********/
+.paperpreview{
+	display:none;
+	margin-left: 30px;
+	width:700px;
+}
+.paperpreview .p_title{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px 0 10px 0;
+}
+.paperpreview .p_content{
+	line-height: 180%;
+	text-align:left;
+}
+.paperpreview .p_content dt{
+	color: #666666;
+	text-align: left;
+	white-space: nowrap;
+	float:left;
+	
+}
+.paperpreview .p_content dd{
+	margin-left: 80px;
+	clear:right;
+}
+
+/**编辑个人信息*/
+.apply_form{
+	color: #5B5F6B;
+}
+.em{
+	color: #FF0000;
+}
+
+.sex label{
+	float: none;
+}
+.f_label{
+	float: left;
+	text-align: right;
+	width:180px;
+	margin: 2px 5px;
+}
+select {
+	height: 20px;
+}
+.tip_txt{
+	color: #9A9A9A;
+}
+.errtip{
+	color: #DD2026;
+	margin-left: 10px;
+}
+
+.ctrl{
+	margin: 20px 0 50px 190px;
+}
+.bt{
+	color: #3F3F3F;
+	font-weight: normal;
+}
+.bt_cancel{
+	width: 51px;
+	color: #666666;
+}
+
+.infoblock{
+	border-bottom: 1px dotted #CCCCCC;
+	margin: 15px auto;
+}
+.infoblock .btitle{
+	border-bottom: 1px solid #D7E3CF;
+	font-weight: bold;
+}
+.infoblock .bcon{
+	padding:5px;
+}
+
+.bcon .lb{
+	float:left;
+	width: 500px;
+}
+.bcon .rb{
+	
+}
+.rb .img{
+	min-height: 100px;
+	height:auto !important; 
+    height:100px; 
+    overflow:visible;
+}
+.rb  img{
+	border: 1px solid #CEE1EE;
+	padding:2px;
+	text-align:center;
+	width: 60px;
+	height: 80px;
+}
+
+.infoblock .bcon ul{
+	list-style:none;
+}
+.infoblock .bcon li{
+	font-size: 12px;
+	margin-left: 30px;
+	line-height: 150%;
+	min-height: 20px;
+	height:auto !important; 
+    height:20px; 
+    overflow:visible;
+}
+.infoblock .bcon li .attr{
+	float: left;
+	clear: right;
+	font-weight:bold;
+	width: 100px;
+	text-align: right;
+}
+.infoblock .bcon li .val{
+	margin-left: 100px;
+	width: 600px;
+	text-indent: 2em;
+}
+.infoblock .bcon li span{
+	margin-left:20px;
+}
+
+.infoblock p{
+	margin: 10px auto;
+}
+.infoblock label{
+	float:left;
+	margin: 4px 5px;
+	text-align:right;
+	width: 180px;
+}
+
+textarea{
+	border-color: 1px solid #7F9DB9;
+	height:60px;
+	padding:3px 2px;
+	width:460px;
+	font-size: 12px;
+}
+.c_tx2 {
+	color:#9A9A9A;
+}
+
+/**更多详细*/
+.more{
+	text-align: center;
+	margin: 20px auto;
+}
+.more a{
+	
+}
+/**wiki显示**/
+.wiki{
+	margin-left: 20px;
+	width:700px;
+	padding: 20px;
+	min-height: 400px;
+	height:auto !important; 
+    height:400px; 
+    overflow:visible;
+}
+.wikieditor{
+	border-top: 1px solid #108AC6;
+	padding: 5px 10px;
+	width: 700px;
+	height: 66px;
+}
+.editor{
+	float:left;
+	overflow: hidden;
+	width: 50px;
+}
+.editor .editor-pic{
+	border: 1px solid #CEE1EE;
+	padding:2px;
+	text-align:center;
+	width: 40px;
+	height: 50px;
+}
+.editor .editor-name{
+	text-align:center;
+	width: 40px;
+}

@@ -1,0 +1,128 @@
+#content {
+	background: none repeat scroll 0 0 #FFFFE7;
+	padding: 10px;
+	position:relative;
+	font-size: 12px;
+	min-height: 540px;
+	height:auto !important; 
+    height:540px; 
+    overflow:visible;
+	
+}
+#content #middle{
+	width:1000px;
+}
+
+.module {
+	
+}
+.module .title{
+	background-color: #F4F6F6;
+	border-color: #F1F1F1;
+	color: #3F3F3F;
+	font-size: 14px;
+	font-weight: bold;
+}
+.module .info{
+	margin: 50px 20px 20px;
+}
+.apply_form{
+	color: #5B5F6B;
+}
+.apply_form p{
+	margin: 10px auto;
+}
+.apply_form label{
+	float:left;
+	margin: 4px 5px;
+	text-align:right;
+	width: 180px;
+}
+.em{
+	color: #FF0000;
+}
+
+.sex label{
+	float: none;
+}
+.f_label{
+	float: left;
+	text-align: right;
+	width:180px;
+	margin: 2px 5px;
+}
+select {
+	height: 20px;
+}
+.tip_txt{
+	color: #9A9A9A;
+}
+.errtip{
+	color: #DD2026;
+	margin-left: 10px;
+}
+
+.ctrl{
+	margin: 20px 0 50px 190px;
+}
+.bt{
+	color: #3F3F3F;
+	font-weight: normal;
+}
+.bt_cancel{
+	width: 51px;
+	color: #666666;
+}
+
+.infoblock{
+	border-bottom: 1px dotted #CCCCCC;
+	margin: 15px auto;
+}
+.infoblock .btitle{
+	border-bottom: 1px solid #D7E3CF;
+	font-weight: bold;
+}
+.infoblock .bcon{
+	padding:5px;
+}
+
+textarea{
+	border-color: 1px solid #7F9DB9;
+	height:60px;
+	padding:3px 2px;
+	width:460px;
+	font-size: 12px;
+}
+.c_tx2 {
+	color:#9A9A9A;
+}
+
+ul{
+list-style:none;
+}
+.accinfo{
+	margin: 5px 20px;
+	padding: 5px;
+	font-size:12px;
+	width:200px;
+	border-bottom: 1px dotted #777;
+}
+.accinfo span{
+	margin-left: 100px;
+}
+.accinfo span input{
+	height: 20px;
+}
+/*没有相关账号*/
+.noacc{
+	margin: 20px 0 0 60px;
+	height:25px;
+}
+
+
+/**刚进入页面的说明提示信息**/
+.desc{
+	text-align:left;
+	margin: 0 50px;
+	line-height: 200%;
+}

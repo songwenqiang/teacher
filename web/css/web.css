@@ -1,0 +1,256 @@
+﻿.clear{
+	clear: both;
+}
+ul li{
+	list-style: none outside none;
+}
+.tabnav{
+	border-top: 1px solid #FFFFFF;
+	text-align: right;
+}
+.tabnav ul li{
+	float:left;
+	list-style: none outside none;
+}
+.tabnav ul li a {
+	background:url("../img/del_sprite_tabs.png") no-repeat scroll right 0 #D2D2D2;
+	color:#FFFFFF;
+	display:block;
+	font-size:100%;
+	font-weight:bold;
+	margin-right:0.4em;
+	padding:0.2em 0;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0.5em;
+	width:8em;	
+}
+#active a, #active a:hover {
+	background-color: #3274D0;
+}
+.infobar{
+	border-bottom: 3px solid #D5D5D5;
+	border-top: 5px solid #3274D0;
+	clear: left;
+	min-height: 0.8em;
+	height:auto !important; 
+    height:0.8em;
+	margin-bottom: 1em;
+	margin-top: 0;
+	padding: 0.8em 0 0.5em;
+	position: relative;
+}
+.infobar .err{
+	background-color:#FFEEEE;
+	border:1px solid #990000;
+	color:#990000;
+	margin-bottom:20px;
+	padding:6px;
+}
+.infobar .err h4{
+	color:#990000;
+	font-size:1.2em;
+	margin:0;
+	padding:0 10px 10px 0;
+}
+.infobar .err ul{
+	margin-left:20px;
+	padding:0;
+}
+.infobar .err li{
+	list-style-type:square;
+	margin-left:15px;
+}
+.infobar .right{
+	padding:6px;
+}
+
+/**类别管理*/
+#cate{
+	min-height: 35px;
+	padding: 10px 0 12px 10px;
+	text-align: left;
+}
+#cate li{
+	height: 30px;
+	line-height: 200%;
+	border-top:1px solid #E9E9E9;
+}
+#cate .num {
+	font-family: "Arial Black";
+	font-weight: bold;
+	width: 40px;
+	float: left;
+	vertical-align: middle;
+}
+#cate .catename{
+	float:left;
+	margin: 0 10px;
+	width:200px;
+}
+#cate .catecon{
+	float: left;
+}
+
+#cate .urlnum{
+	float: left;
+	width: 40px;
+}
+#cate  .createdate{
+	float: left;
+	margin: 0 10px;
+}
+#cate .edit{
+	float: left;
+	margin: 0 20px;
+}
+#cate .edit a{
+	cursor: pointer;
+}
+#addcate{
+	border-top: 3px solid #D5D5D5;
+	padding-top: 20px;
+	text-align:center;
+	margin: 0 auto;
+}
+#addcate label{
+	color: #1462c1;
+	line-height: 120%;
+	font-size: 1.1em;
+	
+}
+#addcate #catename{
+	height: 20px;
+	width: 250px;
+}
+#addcate .bt{
+	height: 26px;
+	width: 60px;
+	color: #3F3F3F;
+	font-weight: normal;
+}
+/*输入控制*/
+/**输入信息*/
+.apply_form{
+	color: #5B5F6B;
+}
+.em{
+	color: #FF0000;
+}
+.inb{
+	padding: 5px 0;
+	margin: 10px auto;
+}
+.inb label{
+	float:left;
+	margin: 4px 5px;
+	text-align:right;
+	width: 100px;
+}
+.inb input{
+	width: 400px;
+}
+.inb textarea{
+	width: 400px;
+}
+select {
+	height: 20px;
+}
+.tip_txt{
+	color: #9A9A9A;
+}
+.errtip{
+	color: #DD2026;
+	margin-left: 10px;
+}
+/**按钮*/
+.ctrl{
+	margin: 20px 0 50px 190px;
+}
+.bt{
+	color: #3F3F3F;
+	font-weight: normal;
+	padding:3px;
+}
+.bt_cancel{
+	width: 51px;
+	color: #666666;
+}
+
+/**我的导航网页*/
+.fblock{
+	border-bottom: 1px solid #D5D5D5;
+	min-height: 5em;
+	position: relative;
+}
+.fblock .btitle{
+	left: 0;
+	position:absolute;
+	top: 1em;
+}
+.fblock .btitle .fname{
+	background:url("../img/del_sprite_folder.png") no-repeat scroll right -319px transparent;
+	color:#FFFFFF;
+	display:block;
+	float:left;
+	font-size:14px;
+
+	line-height:20px;
+	padding:0 7px 0 0;
+}
+.fblock .btitle .fname span{
+	background:none repeat scroll 0 0 #8E8E8E;
+display:block;
+padding:0 14px 0 8px;
+}
+.fblock .btitle .webnum{
+	/*background:url("../img/del_sprite_arrowButtons.gif") no-repeat scroll right -300px transparent;
+	*/
+	color:#8E8E8E;
+	padding:2px 0;
+
+}
+.fblock .bcon{
+	margin-left: 100px;
+	overflow:auto; 
+	height:1%;
+}
+.web{
+	display:inline;
+	
+	position: relative;
+	margin: 5px 20px 5px 0px;
+	float: left;
+	
+}
+.web .title a{
+	font-weight: bold;
+	font-size: 1.1em;
+	color: #4A7CB3;
+	cursor: pointer;
+}
+.web .des{
+	color: #848484;
+	font-size: 0.9em;
+	line-height: 1.1em;
+}
+.web .tag{
+	
+	font-size: 0.9em;
+}
+.web .tag span{
+	color:#CC3333 !important;
+	margin: 0 5px 0 0;
+}
+.web .action{
+	
+}
+.web .action a{
+	background-color: #F0F0F0 !important;
+	color: #848484 !important;
+	padding: 2px !important;
+	font-size: 0.9em;
+	cursor: pointer;
+	margin-right: 2px;
+}
+

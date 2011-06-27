@@ -1,0 +1,163 @@
+#content {
+	background: none repeat scroll 0 0 #FFFFE7;
+	padding: 10px;
+	position:relative;
+	font-size: 12px;
+	min-height: 540px;
+	height:auto !important; 
+    height:540px; 
+    overflow:visible;
+	
+}
+#content #middle{
+	width:1000px;
+}
+
+.search{
+	text-align: left;
+	background-color: #FFF;
+	border: 1px solid #41A256;
+	height: 75px;
+}
+/**标签页*/
+.tabmenu{
+	float:left;
+	width:60px;
+}
+.tabmenu ul{
+	list-style:none;
+}
+.tabmenu li{
+	cursor: pointer;
+	text-align:certer;
+	height:25px;
+	line-height:20px;
+	text-align:center;
+	font-weight:bold;
+	font-size: 12px;
+}
+.tabmenu .normalmenu{
+	background: url("../../image/tb.jpg") repeat scroll 0 0 transparent;
+}
+.tabmenu .currentmenu{
+
+}
+.tabcontent{
+	padding: 20px;
+	text-align:center;
+	margin: 0 auto;
+	line-height: 200%;
+}
+
+.module{
+	position:relative;
+	z-index: 99;
+}
+.module .top{
+	background: url("../../image/tlCornerAlt.png") no-repeat scroll 0 0 transparent;
+	height: 8px;
+	margin-right: 7px;
+	padding-left:10px;
+}
+.module .top .rCorner{
+	background: url("../../image/trCornerAlt.png") no-repeat scroll right top transparent;
+	height: 8px;
+	margin-right: -7px;
+}
+.module .con{
+	border-color: #41A256;
+	border-style: solid;
+	border-width: 0 1px;
+	margin:0;
+	padding:0;
+}
+.module .bottom {
+	background: url("../../image/blCorner.png") no-repeat scroll 0 0 transparent;
+	height: 8px;
+	padding-left: 10px;
+	margin-right: 7px;
+}
+.module .bottom .rCorner{
+	background: url("../../image/brCorner.png") no-repeat scroll right top transparent;
+	height: 8px;
+	margin-right: -7px;
+}
+
+
+#content #result{
+	margin-top: 20px;
+	text-align: left;
+}
+#content #result ul{
+	list-style:none;
+}
+
+//表格样式
+table {
+}
+table tr td{
+	text-align:center;
+	padding:0 5px;
+}
+table tr th{
+	text-align:center;
+	padding:0 3px;
+}
+
+
+/*分页导航*/
+.pagenav{
+display:block;
+border-top: 1px solid #DDDDDD;
+margin-top:5px;
+padding:10px 5px;
+height:21px;
+}
+.number-proj{
+color:#888888;
+float:left;
+}
+.float-right{
+float:right;
+}
+.pagerpro{
+float:right;
+list-style:none outside none;
+margin:0;
+padding:0;
+}
+.pagerpro li{
+display:inline;
+float:left;
+}
+.pagerpro li a{
+cursor:pointer;
+text-decoration: none;
+font-size:12px;
+border-top: 0 none;
+margin-top: 2px;
+padding: 3px 3px 2px;
+}
+.pagerpro li a:link, .pagerpro li a:visited{
+color: #005EAC;
+text-decoration: none;
+}
+.pagerpro li a:hover{
+background: none repeat scroll 0 0 #005EAC;
+color:#FFFFFF;
+}
+
+.pagerpro li.current a {
+background:none repeat scroll 0 0 transparent;
+border-top: 2px solid #005EAC;
+color:#005EAC;
+font-weight:bold;
+padding-right:2px;
+}
+
+/**刚进入页面的说明提示信息**/
+.desc{
+	text-align:left;
+	margin: 0 50px;
+	line-height: 200%;
+}
